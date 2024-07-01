@@ -21,7 +21,11 @@ This repository contains several scripts designed to benchmark server performanc
 Copy and paste the command below in the command line:
 
 ```
-curl -o test.sh https://cdn.ai.in/sh/test.sh && sh test.sh
+wget -q https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && sh sbtest.sh
+```
+OR
+```
+curl -s -o sbtest.sh https://cdn.ai.in/sh/sbtest.sh && sh sbtest.sh
 ```
 
 ## Authors
