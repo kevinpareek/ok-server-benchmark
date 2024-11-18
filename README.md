@@ -8,27 +8,27 @@ This repository contains several scripts designed to benchmark server performanc
 - **Description:** Provides detailed information about the server configuration.
 - **Usage:** Run the script to display server specifications and configuration details.
 ```
-wget -q https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && sh sbtest.sh -si
+wget --no-check-certificate https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && bash sbtest.sh -si
 ```
 
 ### 2. PHP Benchmark Script
 - **Description:** Benchmarks PHP performance on the server.
 - **Usage:** Execute the script to measure PHP execution time and other performance metrics.
 ```
-wget -q https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && sh sbtest.sh -pb
+wget --no-check-certificate https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && bash sbtest.sh -pb
 ```
 
 - Test PHP efficiency with 1000x Difficulty load
 
 ```
-wget -q https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && sh sbtest.sh -php -d=1000
+wget --no-check-certificate https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && bash sbtest.sh -php -d=1000
 ```
 
 ### 3. Dedicated Server/VPS Download Speed Benchmark Script
 - **Description:** Measures download speed from the server.
 - **Usage:** Run the script to test and report the download speed from the server.
 ```
-wget -q https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && sh sbtest.sh -ds
+wget --no-check-certificate https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && bash sbtest.sh -ds
 ```
 
 ## How to Use
@@ -36,11 +36,11 @@ wget -q https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && sh sbtest.sh -ds
 Copy and paste the command below in the command line:
 
 ```
-wget -q https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && sh sbtest.sh
+wget --no-check-certificate https://cdn.ai.in/sh/sbtest.sh -O sbtest.sh && bash sbtest.sh
 ```
 OR
 ```
-curl -s -o sbtest.sh https://cdn.ai.in/sh/sbtest.sh && sh sbtest.sh
+curl -o sbtest.sh https://cdn.ai.in/sh/sbtest.sh && bash sbtest.sh
 ```
 
 ## Authors
